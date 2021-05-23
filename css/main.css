@@ -118,9 +118,9 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-around;
-  min-height: 200px;
+  min-height: 150px;
   height: auto;
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 100%;
   background: url("../img/Paper_torn1_red.png");
   background-size: cover;
@@ -221,12 +221,13 @@ img {
    }
     #main-nav li {
       padding: 0rem 1rem;
-      padding-bottom: 3.5rem; }
+      padding-bottom: 5rem; }
     #main-nav a {
     font-size: 0.8rem; }
    #logo {
       width: 120px;
       height: 40px;
+      padding-top: 1rem;
     }
   #header-home {
     height: 100vh;
