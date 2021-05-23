@@ -211,6 +211,10 @@ img {
       padding: 0rem 1rem; }
     #main-nav a {
     font-size: 0.8rem; }
+   #logo {
+      width: 100px;
+      height: 35px;
+    }
   #header-home {
     height: 100vh;
     border-bottom: 3px solid #77767A;
