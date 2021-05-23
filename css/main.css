@@ -206,9 +206,9 @@ img {
       }
         #main-footer .footer-info{
           height: 20px;
-          width: 50px;
+          width: auto;
           line-height: 20px;
-          text-align: center;
+          text-align: left;
           align-items: center;
           justify-content: space-evenly;
           padding-bottom: 6rem;
