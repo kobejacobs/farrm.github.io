@@ -173,7 +173,7 @@ img {
     justify-content: space-around;
     height: auto;
     align-items: center; 
-    padding-top: 7rem;
+    padding-top: 9rem;
     padding-bottom: 3.5rem;}
    
     #main-footer .footer-content .social .fab {
@@ -190,7 +190,7 @@ img {
       margin-right: 0.5rem;
       }
         #main-footer .footer-logo {
-          width: 5rem;
+          width: 6rem;
           object-fit: contain;
           margin-left: 0.5rem;
           margin-right: 0.5rem;}
@@ -231,7 +231,7 @@ img {
         padding-top: 2rem;
       }
       #main-footer .footer-logo {
-        width: 3.5rem;
+        width: 5.5rem;
       }
 
 
