@@ -146,7 +146,8 @@ img {
 #header-home {
   background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover;
   height: 100vh;
-  color: #fff; }
+  color: #fff;
+}
   
   #header-home .header-content {
     text-align: center;
