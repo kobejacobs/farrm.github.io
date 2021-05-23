@@ -226,9 +226,9 @@ img {
     height: auto;}
     #main-footer .footer-content {
       flex-direction: column;
-      padding: 4.5rem;}
+      padding-top: 6.5rem;}
       #main-footer .social{
-        padding-top: 3rem;
+        padding-top: 2rem;
       }
       #main-footer .footer-logo {
         width: 3.5rem;
