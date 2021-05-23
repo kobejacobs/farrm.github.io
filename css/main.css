@@ -196,6 +196,9 @@ img {
           object-fit: contain;
           margin-left: 0.5rem;
           margin-right: 0.5rem;}
+          #main-footer a:visited {
+            color: #fff;
+          }
 
 
 
@@ -238,6 +241,9 @@ img {
       }
       #main-footer .footer-logo {
         width: 5.5rem;
+      }
+      #main-footer a:visited {
+        color: #fff;
       }
 
 
