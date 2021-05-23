@@ -278,6 +278,10 @@ img {
       #main-footer a:visited {
         color: #fff;
       }
+      #main-footer .footer-info{
+        padding-top: 1.5rem;
+        text-align: center;
+      }
 
 
 
