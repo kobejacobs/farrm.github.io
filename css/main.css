@@ -307,7 +307,6 @@ img {
     padding-bottom: 3.5rem;}
    
     #main-footer .footer-content .social .fab {
-      margin-right: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
       height: 20px;
@@ -316,7 +315,8 @@ img {
       text-align: center;
       padding: 1rem;
       align-items: center;
-      justify-content:center;}
+      justify-content: space-evenly;
+      }
       #main-footer .footer-logo {
         width: 4.5rem;
         object-fit: contain;
