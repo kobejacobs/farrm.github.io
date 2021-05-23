@@ -190,12 +190,12 @@ img {
       margin-right: 0.5rem;
       }
         #main-footer .footer-logo {
-          width: 5.5rem;
+          width: 5rem;
           object-fit: contain;
           margin-left: 0.5rem;
-          margin-right: 0.5rem;
-        }
-      
+          margin-right: 0.5rem;}
+
+
 
 @media (max-width: 700px) {
   #header-home {
@@ -226,13 +226,14 @@ img {
     height: auto;}
     #main-footer .footer-content {
       flex-direction: column;
-      padding: 4.5rem;} }
+      padding: 4.5rem;}
       #main-footer .social{
-        padding-top: 2rem;
+        padding-top: 3rem;
       }
       #main-footer .footer-logo {
         width: 3.5rem;
       }
+
 
 
 @media (max-height: 580px) {
@@ -244,3 +245,4 @@ img {
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 1rem; } }
+  }
