@@ -1,3 +1,9 @@
+@font-face {
+  font-family: din;
+  src: url("/fonts/DIN.ttf") format("opentype");
+}
+
+
 .container {
   margin: auto;
   overflow: hidden; }
@@ -104,8 +110,9 @@ ul {
 
 h2,
 h3,
-h4 {
-  text-transform: uppercase; }
+h4 { 
+  font-family: DIN;
+}
 
 img {
   width: 100%; }
@@ -197,6 +204,21 @@ img {
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       }
+        #main-footer .footer-info{
+          height: 20px;
+          width: 50px;
+          line-height: 20px;
+          text-align: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-bottom: 6rem;
+        }
+          #main-footer .footer-info h2{
+            padding-bottom: 0.5rem;
+          }
+          #main-footer .footer-info h4{
+            padding-bottom: 0.5rem;
+          }
         #main-footer .footer-logo {
           width: 6rem;
           object-fit: contain;
