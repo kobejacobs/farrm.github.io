@@ -113,13 +113,11 @@ img {
 #logo {
   width: 150px;
   height: 60px;
-  padding-left: 30%;
-  padding-right: 30%;
 }
 
 #main-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 1rem;
    }
   #main-nav ul {
@@ -316,7 +314,7 @@ img {
 
 @media (max-width: 800px) {
   #header-home {
-    height: 100vh;; }
+    height: 100vh; }
     #header-home .header-content {
       padding-top: 5rem; }
   #main-nav {
@@ -327,8 +325,7 @@ img {
     #main-nav li {
       padding: 0rem 1rem; }
     #main-nav a {
-    font-size: 0.8rem;
-  }
+    font-size: 0.8rem; }
   #header-home {
     height: 100vh;
     border-bottom: 3px solid #77767A;
