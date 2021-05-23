@@ -113,8 +113,8 @@ img {
 #logo {
   width: 150px;
   height: 60px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 #main-nav {
@@ -325,6 +325,9 @@ img {
    }
     #main-nav li {
       padding: 0rem 1rem; }
+    #main-nav a {
+    font-size: 0.8rem;
+  }
   #header-home {
     height: 100vh;
     border-bottom: 3px solid #77767A;
@@ -378,6 +381,11 @@ img {
     padding-top: 3rem;
     justify-content: center;  
   } }
+@media (max-height: 450px) {
+  #main-nav a {
+    font-size: 0.5rem;
+  }
+}
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
