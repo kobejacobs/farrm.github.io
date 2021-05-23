@@ -167,7 +167,9 @@ img {
   background: url("../img/farrmLandingOnderkantRood.png") no-repeat;
   color: #fff;
   height: auto;
-  margin-top: -6rem;}
+  width: 100%;
+  margin-top: -6rem;
+  background-size: cover;}
   #main-footer .footer-content {
     display: flex;
     justify-content: space-around;
