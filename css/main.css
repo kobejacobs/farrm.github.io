@@ -198,7 +198,7 @@ img {
   #main-footer .footer-content2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: auto;
     align-items: center; 
     padding-bottom: 3.5rem;
@@ -253,22 +253,22 @@ img {
             padding-bottom: 0.5rem;
           }
         #main-footer .footer-logo-farrm {
-          width: 6rem;
+          width: 8rem;
           object-fit: contain;
-          margin-left: 0.5rem;
-          margin-right: 0.5rem;
+          margin-left: 3rem;
+          margin-right: 3rem;
           padding-bottom: 1rem;}
           #main-footer .footer-logo-mkd {
-            width: 6rem;
+            width: 8rem;
             object-fit: contain;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
             padding-bottom: 1.5rem;}
           #main-footer .footer-logo-werf {
-            width: 4rem;
+            width: 5.5rem;
             object-fit: contain;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;}
+            margin-left: 3rem;
+            margin-right: 3rem;}
           #main-footer a:visited {
             color: #fff;
           }
@@ -327,14 +327,22 @@ img {
       }
       #main-footer .footer-logo-werf {
         width: 3.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
       }
       #main-footer .footer-logo-farrm {
         padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         width: 4.5rem;
       }
       #main-footer .footer-logo-mkd {
         width: 4.5rem;
         padding-bottom: 1.5rem;
+        padding-top: 1.5em;
+        padding-left: 1rem;
+        padding-right: 1rem;
       }
       #main-footer a:visited {
         color: #fff;
