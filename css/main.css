@@ -184,15 +184,48 @@ img {
   width: 100%;
   margin-top: -6rem;
   background-size: 100% 100%;}
-  #main-footer .footer-content {
+  #main-footer .footer-content1 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    width: auto;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+  #main-footer .footer-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     height: auto;
     align-items: center; 
+    padding-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+  #main-footer .footer-content1 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width:16rem;
+    align-items: center; 
     padding-top: 4rem;
-    padding-bottom: 3.5rem;}
+    flex-wrap: wrap;
+  }
+  #main-footer .footer-content2 .social-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width:auto;
+    align-items: center; 
+    padding-top: 4rem;
+    flex-wrap: wrap;
+  }
    
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content1 .social .fab {
       border: 2px #fff solid;
       border-radius: 50%;
       height: 20px;
@@ -212,7 +245,6 @@ img {
           text-align: left;
           align-items: center;
           justify-content: space-evenly;
-          padding-bottom: 6rem;
         }
           #main-footer .footer-info h2{
             padding-bottom: 0.5rem;
@@ -279,14 +311,19 @@ img {
 
   #main-footer {
     height: auto;}
-    #main-footer .footer-content {
+    #main-footer .footer-content1 {
       flex-direction: column;
-      padding-top: 3.5rem;}
+      padding-top: 4.5rem;}
+      #main-footer .footer-content1 .social {
+        padding-top: 10rem;
+      }
+      #main-footer .footer-content2 {
+        flex-direction: column;}
+        #main-footer .footer-content2 .social-logo {
+          padding-top: 0rem;
+        }
       #main-footer .social{
         padding-top: 2rem;
-      }
-      #main-footer .footer-logo {
-        width: 5.5rem;
       }
       #main-footer .footer-logo-werf {
         width: 3.5rem;
