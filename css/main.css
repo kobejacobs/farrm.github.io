@@ -99,7 +99,7 @@ input[class^='btn-']:hover {
 body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover; }
 
 a {
   text-decoration: none;
@@ -155,7 +155,6 @@ img {
       border-color: #97ADAA; }
 
 #header-home {
-  background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover;
   height: auto;
   color: #fff;
   padding-bottom: 20%;
