@@ -363,7 +363,7 @@ img {
         padding-left: 1rem;
         padding-right: 1rem;
       }
-      #main-footer a:visited {
+      #main-footer .social a:visited {
         color: #fff;
       }
       #main-footer .footer-info{
