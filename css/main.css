@@ -168,6 +168,15 @@ img {
     #header-home .header-content .container-content {
       padding-left: 20%;
       width: 60%;
+      height: auto;
+      display: relative;
+    }
+    #header-home .header-content .container-content .video {
+        display: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
     #header-home .header-content h1 {
       font-size: 4rem;
