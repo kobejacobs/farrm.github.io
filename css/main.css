@@ -286,7 +286,7 @@ img {
   #header-home {
     height: 100vh; }
     #header-home .header-content {
-      padding-top: 5rem; }
+      padding-top: 2rem; }
   #main-nav {
     flex-direction: column;
     align-items: center;
