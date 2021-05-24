@@ -175,8 +175,7 @@ img {
       height: 600px;
     }
     #header-home .header-content h1 {
-      font-size: 4rem;
-      line-height: 1.2; }
+      font-size: 4rem; }
 
 #header-inner {
   background: url("../img/Background_paper_HAMERS.png") no-repeat 20% 30%/cover;
