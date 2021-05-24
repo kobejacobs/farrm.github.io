@@ -156,7 +156,7 @@ img {
 
 #header-home {
   background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover;
-  height: 150vh;;
+  min-height: 100vh;
   color: #fff;
 }
 
@@ -301,9 +301,10 @@ img {
       padding-top: 0rem;
     }
   #header-home {
-    height: 100vh;
+    height: auto;
     border-bottom: 3px solid #77767A;
-    background-position: 20% 30%; }
+    background-position: 20% 30%;
+    padding-bottom: 20%; }
     #header-home .header-content {
       display: flex; 
       flex-direction: column;
