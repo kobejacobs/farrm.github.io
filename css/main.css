@@ -255,20 +255,20 @@ img {
         #main-footer .footer-logo-farrm {
           width: 8rem;
           object-fit: contain;
-          margin-left: 3rem;
-          margin-right: 3rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
           padding-bottom: 1rem;}
           #main-footer .footer-logo-mkd {
             width: 8rem;
             object-fit: contain;
-            margin-left: 3rem;
-            margin-right: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
             padding-bottom: 1.5rem;}
           #main-footer .footer-logo-werf {
             width: 5.5rem;
             object-fit: contain;
-            margin-left: 3rem;
-            margin-right: 3rem;}
+            margin-left: 1rem;
+            margin-right: 1rem;}
           #main-footer a:visited {
             color: #fff;
           }
