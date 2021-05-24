@@ -156,8 +156,9 @@ img {
 
 #header-home {
   background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover;
-  min-height: 100vh;
+  height: auto;
   color: #fff;
+  padding-bottom: 20%;
 }
 
   
