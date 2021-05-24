@@ -121,7 +121,7 @@ img {
 
 #logo {
   width: 170px;
-  height: 50px;
+  height: 55px;
   padding-top: 1.2rem;
 }
 
@@ -144,16 +144,12 @@ img {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    border-bottom: 3px transparent solid;
-    transition: border-color 0.5s;
     font-size: 1.3rem; }
     #main-nav a:hover {
       text-decoration: none;
       color: #77767A;
       text-transform: uppercase;
-      border-bottom: 3px transparent solid;
-      padding-bottom: 0.5rem;
-      transition: border-color 0.5s; }
+      padding-bottom: 0.5rem;}
   
     #main-nav a.current {
       border-color: #97ADAA; }
