@@ -176,6 +176,25 @@ img {
     }
     #header-home .header-content h1 {
       font-size: 4rem; }
+      #header-home .header-content .container-content .team-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      #header-home .header-content .container-content .team {
+        width: auto;
+        padding-left: 1rem;
+      }
+      #header-home .header-content .container-content .tekst-team {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 2rem;
+      }
+      #header-home .header-content .container-content .tekst-team h1{
+        font-size: 2.5rem;
+      }
 
 #header-inner {
   background: url("../img/Background_paper_HAMERS.png") no-repeat 20% 30%/cover;
@@ -316,14 +335,31 @@ img {
       }
       #header-home .header-content .container-content .video{
         width: 100%;
-        height: 180px;
+        height: auto;
       }
+      
       #header-home .header-content h1{
         font-size: 1.8rem;
       }
       #header-home .header-content h2{
         font-size: 0.8rem;
       }
+      #header-home .header-content .container-content .team-content {
+        flex-direction: column;
+      }
+      #header-home .header-content .container-content .team-content .tekst-team{
+        font-size: 1.3rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+      }
+      #header-home .header-content .container-content .team-content .tekst-team h1{
+        font-size: 1.3rem;
+      }
+      #header-home .header-content .container-content .team-content .tekst-team h4{
+        font-size: 1rem;
+      }
+
+      
   #header-inner {
     height: 10rem; }
     
