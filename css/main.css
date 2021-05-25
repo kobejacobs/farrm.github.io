@@ -101,7 +101,8 @@ body {
   line-height: 1.6;
   background: url("../img/Background_paper_HAMERS.png");
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  height: auto; }
 
 
 a {
