@@ -89,6 +89,18 @@ img {
       height: auto;
       padding-bottom: 5rem;
     }
+    #header-home .header-content .container-content1 {
+      padding-left: 10%;
+      width: 80%;
+      height: auto;
+    }
+    #header-home .header-content .container-content-form form {
+      padding-top: -3rem;
+      padding-left: 10%;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+    }
     #header-home .header-content .container-content .video{
       padding-left: 5%;
       width: 90%;
@@ -260,6 +272,10 @@ img {
       flex-direction: column;
       }
       #header-home .header-content .container-content {
+        padding-left: 5%;
+        width: 90%;
+      }
+      #header-home .header-content .container-content1 {
         padding-left: 5%;
         width: 90%;
       }
