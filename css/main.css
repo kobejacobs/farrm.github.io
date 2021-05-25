@@ -309,7 +309,7 @@ img {
 @media (max-width: 700px) {
   body {
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
   #header-home {
     height: auto; }
