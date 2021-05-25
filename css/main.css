@@ -311,6 +311,7 @@ img {
     height: 100vh; }
     #header-home .header-content {
       padding-top: 2rem; }
+      
   #main-nav {
     flex-direction: column;
     align-items: center;
@@ -337,6 +338,10 @@ img {
     #header-home .header-content {
       display: flex; 
       flex-direction: column;
+      }
+      #header-home .header-content .container-content {
+        padding-left: 5%;
+        width: 80%;
       }
       #header-home .header-content .container-content .video{
         width: 100%;
