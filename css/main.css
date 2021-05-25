@@ -99,7 +99,9 @@ input[class^='btn-']:hover {
 body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: url("../img/Background_paper_HAMERS.png") no-repeat center right/cover; }
+  background: url("../img/Background_paper_HAMERS.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 a {
   text-decoration: none;
