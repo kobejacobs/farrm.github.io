@@ -302,6 +302,9 @@ img {
             object-fit: contain;
             margin-left: 1rem;
             margin-right: 1rem;}
+            #main-footer a {
+              color: #fff;
+            }
           #main-footer a:visited {
             color: #fff;
           }
