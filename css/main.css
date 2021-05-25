@@ -7,91 +7,6 @@
 .container {
   margin: auto;
   overflow: hidden; }
-
-.btn-main, .btn-light, .btn-dark {
-  display: inline-block;
-  padding: 0.8rem 2rem;
-  transition: all 0.5s;
-  border: none;
-  cursor: pointer; }
-
-.btn-main {
-  color: #333;
-  background-color: #C2BFC7; }
-
-.btn-light {
-  color: #333;
-  background-color: #f4f4f4; }
-
-
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
-  background-color: #C2BFC7;
-  color: white; }
-
-.bg-main {
-  background: #C2BFC7;
-  color: #fff; }
-
-.bg-dark {
-  background: #333;
-  color: #fff; }
-
-.bg-light {
-  background: #f4f4f4;
-  color: #000; }
-
-.bg-medium {
-  background: #ccc;
-  color: #000; }
-
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem; }
-
-.text-center {
-  text-align: center; }
-
-.py-1 {
-  padding: 1rem 0; }
-
-.py-2 {
-  padding: 2rem 0; }
-
-.py-3 {
-  padding: 3rem 0; }
-
-.py-4 {
-  padding: 4rem 0; }
-
-.my-1 {
-  margin: 1rem 0; }
-
-.my-2 {
-  margin: 2rem 0; }
-
-.my-3 {
-  margin: 3rem 0; }
-
-.my-4 {
-  margin: 4rem 0; }
-
-.section-title {
-  font-size: 2rem;
-  display: block;
-  padding-bottom: 0.5rem;
-  text-align: center;
-  font-weight: 100;
-  text-transform: uppercase; }
-
-.bottom-line {
-  height: 2px;
-  width: 3rem;
-  background: #C2BFC7;
-  display: block;
-  margin: 0 auto 1rem auto; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -192,7 +107,7 @@ img {
       }
       #header-home .header-content .container-content .team iframe{
         width: 100%;
-        height: 100%;
+        height: 16rem;
       }
       #header-home .header-content .container-content .tekst-team {
         width: 100%;
@@ -360,6 +275,9 @@ img {
       #header-home .header-content .container-content .team-content {
         flex-direction: column;
         width: 90%;
+      }
+      #header-home .header-content .container-content .team iframe{
+        height: 10rem;
       }
       #header-home .header-content .container-content .team-content .tekst-team{
         font-size: 1.3rem;
