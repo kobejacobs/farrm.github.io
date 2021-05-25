@@ -244,7 +244,6 @@ img {
     height: auto;
     width:16rem;
     align-items: center; 
-    padding-top: 4rem;
     flex-wrap: wrap;
   }
   #main-footer .footer-content2 .social-logo {
@@ -254,7 +253,6 @@ img {
     height: auto;
     width:auto;
     align-items: center; 
-    padding-top: 4rem;
     flex-wrap: wrap;
   }
    
@@ -272,7 +270,7 @@ img {
       margin-right: 0.5rem;
       }
         #main-footer .footer-info{
-          height: 20px;
+          height: auto;
           width: auto;
           line-height: 20px;
           text-align: left;
@@ -385,16 +383,10 @@ img {
     #main-footer .footer-content1 {
       flex-direction: column;
       padding-top: 4.5rem;}
-      #main-footer .footer-content1 .social {
-        padding-top: 10rem;
-      }
       #main-footer .footer-content2 {
         flex-direction: column;}
-        #main-footer .footer-content2 .social-logo {
-          padding-top: 0rem;
-        }
-      #main-footer .social{
-        padding-top: 2rem;
+      #main-footer .footer-info {
+        padding-bottom: 2rem;
       }
       #main-footer .footer-logo-werf {
         width: 3.5rem;
