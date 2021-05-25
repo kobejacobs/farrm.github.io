@@ -341,7 +341,7 @@ img {
       }
       #header-home .header-content .container-content {
         padding-left: 5%;
-        width: 80%;
+        width: 90%;
       }
       #header-home .header-content .container-content .video{
         width: 100%;
@@ -352,10 +352,11 @@ img {
         font-size: 1.8rem;
       }
       #header-home .header-content h2{
-        font-size: 0.8rem;
+        font-size: 1rem;
       }
       #header-home .header-content .container-content .team-content {
         flex-direction: column;
+        width: 90%;
       }
       #header-home .header-content .container-content .team-content .tekst-team{
         font-size: 1.3rem;
@@ -366,7 +367,7 @@ img {
         font-size: 1.3rem;
       }
       #header-home .header-content .container-content .team-content .tekst-team h4{
-        font-size: 1rem;
+        font-size:0.8rem;
       }
 
       
