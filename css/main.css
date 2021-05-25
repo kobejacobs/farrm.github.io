@@ -102,6 +102,22 @@ body {
   background: url("../img/Background_paper_HAMERS.png");
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  .image-hero-area {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin: 0;
+    background: url(http://your_website.com/your_image.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 
 a {
   text-decoration: none;
