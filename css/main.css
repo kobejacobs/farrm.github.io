@@ -307,6 +307,10 @@ img {
 
 
 @media (max-width: 700px) {
+  body {
+    background-repeat: no-repeat;
+    background-position: fixed;
+  }
   #header-home {
     height: auto; }
     #header-home .header-content {
